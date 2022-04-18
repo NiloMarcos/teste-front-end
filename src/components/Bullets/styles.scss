@@ -1,0 +1,102 @@
+$grid-gutter: 20px;
+$grid-columns: 12;
+$grid-max: 1280px;
+
+[class*="grid"] {
+  float: center !important;
+  padding: 0 $grid-gutter;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+}
+
+.container-wrapper-bullet {
+  margin-left: 6rem;
+}
+
+.container-bullet {
+  width: 1280px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  margin-top: 88px;
+  align-items: center;
+}
+
+.bullet-first {
+  background-image: url(../../assets/bannerdog.png);
+  background-repeat: no-repeat;
+  width: 540px;
+  height: 350px;
+  border-radius: 20px;
+}
+
+.bullet-first h1 {
+  width: 196px;
+  height: 60px;
+  margin-top: 114px;
+  margin-left: 40px;
+  color: #fff;
+}
+
+.bullet-first p {
+  font-size: 16px;
+  margin-left: 40px;
+  color: #fff;
+}
+
+.bullet-first button {
+  width: 131px;
+  height: 48px;
+  background-color: #fbb900;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  border-radius: 10px;
+  margin-left: 40px;
+  margin-top: 32px;
+}
+
+.bullet-second {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 630px;
+  height: 350px;
+}
+
+.bullet-second-first h1 {
+  font-size: 32px;
+  color: #4d4d4d;
+  margin-right: 150px;
+  margin-bottom: 16px;
+  margin-top: 46px;
+  margin-left: 40px;
+}
+
+.bullet-second-first p {
+  font-size: 16px;
+  color: #9f9f9f;
+  margin-left: 40px;
+  margin-bottom: 32px;
+}
+
+.bullet-second-first button {
+  width: 156px;
+  height: 48px;
+  background-color: #fbb900;
+  color: #ffffff;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  margin-left: 40px;
+}
+
+.banner img {
+  height: 350px;
+}
+
+.points {
+  margin-left: 36rem;
+  margin-right: 903px;
+  margin-top: 24px;
+}

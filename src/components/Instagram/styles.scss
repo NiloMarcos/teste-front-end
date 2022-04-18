@@ -1,0 +1,53 @@
+$grid-gutter: 20px;
+$grid-columns: 12;
+$grid-max: 1280px;
+
+[class*="grid"] {
+  float: center !important;
+  padding: 0 $grid-gutter;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+}
+
+.container-instagram {
+  width: 1280px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.div-title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 32px;
+  margin-left: 20px;
+  align-items: center;
+  margin-top: 88px;
+
+  .section-title h1 {
+    font-size: 32px;
+    font-weight: bold;
+    color: #4d4d4d;
+    margin-left: 56px;
+  }
+
+  .section-link a {
+    font-size: 20px;
+    font-weight: bold;
+    color: #fbb900;
+    margin-right: 62px;
+  }
+}
+
+.instagram-photos {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  overflow-x: hidden;
+
+  .instagram-photos-img {
+    display: inline-block;
+  }
+}
