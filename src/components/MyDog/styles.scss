@@ -1,0 +1,97 @@
+$grid-gutter: 20px;
+$grid-columns: 12;
+$grid-max: 1280px;
+
+[class*="grid"] {
+  float: center !important;
+  padding: 0 $grid-gutter;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+}
+
+.container-mydog {
+  width: 1280px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  margin-top: 88px;
+}
+
+.header-my-dog {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  .section-title h1 {
+    font-size: 32px;
+    font-weight: bold;
+    color: #4d4d4d;
+    margin-left: 56px;
+  }
+
+  .section-links {
+    margin-top: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 56px;
+  }
+
+  .section-links img {
+    margin-right: 16px;
+    cursor: pointer;
+  }
+
+  .section-links a {
+    margin-right: 16px;
+  }
+
+  .link-principal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 107px;
+    height: 40px;
+    background-color: #fbb900;
+    border-radius: 6px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+  }
+
+  .link-second {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 107px;
+    height: 40px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #9f9f9f;
+  }
+}
+
+.items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 38px;
+}
+
+.item-title {
+  font-size: 14px;
+}
+
+.div-more-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 32px;
+}
+
+.div-more-items a {
+  font-size: 20px;
+  font-weight: bold;
+  color: #fbb900;
+}
