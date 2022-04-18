@@ -46,11 +46,11 @@ Para instalar o projeto em sua maquina siga os passos abaixo.
 6. Para consumir as informações da API, rode o servidor criado
 
     ```sh
-    Instale o servidor npm install
+     cd Server
     ```
 
     ```sh
-     cd Server
+    Instale o servidor npm install
     ```
 
 7. Rode o comando
