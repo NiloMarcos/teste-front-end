@@ -64,5 +64,5 @@ Para instalar o projeto em sua maquina siga os passos abaixo.
     ```sh
     Rode primeiro o servidor, logo após a aplicação react, assim irá rodar cada um em portas diferentes. 
 
-    De preferência o server na porta localhost:300 e a aplicação react na localhost:3001
+    De preferência o server na porta localhost:3000 e a aplicação react na localhost:3001
     ```
